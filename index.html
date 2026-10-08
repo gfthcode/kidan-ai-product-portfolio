@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#e8e8e4">
+<meta name="description" content="陈高波 Kidan Chen，新南威尔士大学金融科技本科生。AI 产品实习、Rokid AIUI 与个人项目作品集。"><meta property="og:title" content="Kidan.UNSW.Fintech"><meta property="og:description" content="陈高波 · AI 产品、金融科技与数据实践。">
+<title>Kidan.UNSW.Fintech</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23ed392c'/%3E%3Ctext x='50' y='70' text-anchor='middle' font-size='65' font-family='Arial' font-weight='900' fill='white'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="preload" as="image" href="assets/vanta-model.png"><link rel="stylesheet" href="styles.css?v=20">
+</head>
+<body data-scene="0">
+<a class="skip-link" href="#main">跳至作品集</a>
+<header class="masthead" data-surface>
+ <div class="mast-identity">
+  <div class="identity-name"><a class="mast-brand" href="#" aria-label="陈高波 首页">陈高波</a><span>KIDAN CHEN</span></div>
+  <span class="identity-program">新南威尔士大学 · 金融科技 · 2025.01—2027.11</span>
+  <div class="identity-contact"><a href="tel:+8615268817047">152 6881 7047</a><a href="mailto:g1628908@gmail.com">g1628908@gmail.com</a></div>
+ </div>
+ <span class="chapter-mark" id="chapter-mark">序章 / 个人作品集</span>
+ <button class="archive-toggle" id="archive-toggle" aria-expanded="false" aria-controls="archive-menu">个人档案 <span>＋</span></button>
+ <nav id="archive-menu" class="archive-menu" aria-label="个人档案" hidden>
+  <button data-panel="about" aria-haspopup="dialog">关于我 <span>01 ↗</span></button>
+  <button data-panel="github" aria-haspopup="dialog">代码仓库 <span>02 ↗</span></button>
+  <button data-panel="contact" aria-haspopup="dialog">联系我 <span>03 ↗</span></button>
+  <a href="assets/Chen_Gaobo_Resume.pdf" target="_blank" rel="noopener">查看简历 <span>04 ↗</span></a>
+ </nav>
+</header>
+<main id="main" data-surface>
+ <section class="visual-stage" aria-label="滚动切换场景，点击画面中的入口查看经历">
+  <div class="scene-model scene-art" aria-hidden="true"><img src="assets/vanta-model.png" fetchpriority="high" alt=""></div>
+  <div class="scene-pose scene-art" aria-hidden="true"><img src="assets/vanta-pose.png" alt=""></div>
+  <div class="scene-goggles scene-art" role="button" tabindex="-1" aria-label="打开 Rokid 实习档案；左右拖动可切换眼镜视角" aria-haspopup="dialog" aria-hidden="true"><div class="goggles-turn"><img class="goggles-front" src="assets/rokid-goggles-front.png" alt="带有 ROKID 标识的红色概念眼镜"><img class="goggles-side" src="assets/rokid-goggles-side.png" alt="" aria-hidden="true"></div></div>
+  <div class="scene-context intro-context" data-context="0"><button class="intro-entry" data-scene-to="1">探索我的项目 <span>↗</span></button></div>
+  <div class="scene-context projects-context" data-context="1" hidden>
+   <button class="scene-hotspot nucleus-hotspot" data-panel="nucleus" aria-haspopup="dialog"><i aria-hidden="true">＋</i><span><small>01 / 个人项目</small><strong>Nucleus Cards</strong><em>查看项目 ↗</em></span></button>
+   <button class="scene-hotspot courtmatch-hotspot" data-panel="courtmatch" aria-haspopup="dialog"><i aria-hidden="true">＋</i><span><small>02 / 个人项目</small><strong>CourtMatch</strong><em>查看项目 ↗</em></span></button>
+  </div>
+  <div class="scene-context rokid-context" data-context="2" hidden>
+   <button class="scene-hotspot rokid-hotspot" data-panel="experience" aria-haspopup="dialog"><i aria-hidden="true">＋</i><span><small>ROKID / AI 产品实习</small><strong>让交互自然发生。</strong><em>打开实习档案 ↗</em></span></button>
+   <span class="goggles-hint">拖动切换视角<br>点击眼镜查看实习</span>
+  </div>
+  <h1 class="hero-word" aria-label="陈高波的个人作品集">KIDAN</h1>
+ </section>
+</main>
+<footer class="scene-footer" data-surface>
+ <span class="chapter-caption" id="chapter-caption">从观察，到行动。</span>
+ <div class="scene-controls" role="group" aria-label="切换场景"><button data-scene-to="0" aria-label="序章" aria-pressed="true">00 <span>序章</span></button><button data-scene-to="1" aria-label="项目场景" aria-pressed="false">01 <span>项目</span></button><button data-scene-to="2" aria-label="Rokid 实习场景" aria-pressed="false">02 <span>实习</span></button></div>
+ <button class="next-scene" aria-label="切换下一个场景"><span id="scene-label">向下滚动</span> <span>↓</span></button>
+</footer>
+<section class="fog-intro" id="fog-intro" role="dialog" aria-modal="true" aria-label="水雾开场，可移动鼠标或滑动屏幕擦拭，也可跳过" hidden>
+ <canvas id="fog-canvas" aria-hidden="true"></canvas>
+ <button id="fog-skip" class="fog-skip">跳过开场 ↗</button>
+ <span class="sr-only" id="fog-status" aria-live="polite"></span>
+</section>
+<div class="modal-backdrop" id="backdrop" hidden><section class="detail-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-top"><span id="modal-kicker"></span><button class="modal-close" aria-label="关闭详情">×</button></div><h2 id="modal-title"></h2><div class="modal-content" id="modal-content" tabindex="0"></div><div class="modal-bottom"><span>陈高波 / 个人档案</span><span>2026</span></div></section></div>
+<script src="content.js?v=18"></script><script src="fog.js?v=18"></script><script src="script.js?v=18"></script>
+</body></html>
