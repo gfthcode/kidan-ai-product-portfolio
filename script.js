@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (section.links) html += `<div class="detail-links">${section.links.map(([label,url])=>`<a href="${esc(url)}" ${(url.startsWith('http') || url.endsWith('.pdf'))?'target="_blank" rel="noreferrer"':''}>${esc(label)} <b>↗</b></a>`).join('')}</div>`;
     return html + '</article>';
   };
-  window.PORTFOLIO_CONTENT.panels.contact = {number:'05',label:'联系我',title:'联系陈高波',sections:[{title:'一起聊聊产品与新的机会。',text:'新南威尔士大学 UNSW · 金融科技本科生',links:[['152 6881 7047','tel:+8615268817047'],['g1628908@gmail.com','mailto:g1628908@gmail.com'],['在线查看简历 PDF','assets/Chen_Gaobo_Resume.pdf']]}]};
+  window.PORTFOLIO_CONTENT.panels.contact = {number:'05',label:'联系我',title:'联系陈高波',sections:[{title:'一起聊聊产品与新的机会。',text:'新南威尔士大学 UNSW · 金融科技本科生',links:[['152 6881 7047','tel:+8615268817047'],['g1628908@gmail.com','mailto:g1628908@gmail.com'],['在线查看简历 PDF','assets/Chen_Gaobo_Resume.pdf?v=20261008-ai-site']]}]};
   const projectData = window.PORTFOLIO_CONTENT.panels.projects;
   ['nucleus','courtmatch'].forEach((key,index) => {
     window.PORTFOLIO_CONTENT.panels[key] = {number:String(index+1).padStart(2,'0'),label:'个人项目',title:projectData.showcase[index].name,sections:[projectData.sections[index]],cover:index===0?'assets/nucleus-preview.png':'assets/courtmatch-preview.png'};
